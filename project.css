@@ -1,0 +1,293 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+}
+.main{
+    height:100%;
+    width:100%;
+    color:#fff;
+    overflow:hidden;
+    margin:0;
+    display:flex;
+}
+.sidebar{
+    height:100%;
+    width:340px;
+    border-radius:1rem;
+    overflow: hidden;
+}
+.nav{
+    border-radius:1rem;
+    background-color: #121212;
+    flex-direction: column;
+    height:80px;
+    justify-content:center;
+    padding:0.9rem 1.5rem;
+    margin-right: 10px;
+}
+.nav-op{
+    line-height: 2.5rem;
+    background-color: #121212;
+    padding:0.1rem;
+    opacity:0.7;
+}
+.nav-op i{
+    font-size:1.25rem;
+    background-color: #121212;
+}
+.nav-op a{
+    position: relative;
+    left:15px;
+    font-size:1rem;
+    background-color: #121212;
+}
+.nav-op:hover{
+    opacity:1;
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color: #121212;
+}
+/* Library */
+img{opacity: 0.7;
+    width:1.4rem;
+    height:1.4rem;
+    padding:0.5rem;
+    background-color: #121212;
+}
+.opt{opacity: 0.7;
+    display:flex;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:1rem;
+    padding:0.35rem;
+    background-color: #121212;
+    padding-left:1.3rem;
+    margin-bottom: 1rem;
+}.opt a{
+    padding-top:0.5rem;
+    padding-left:0.5rem;
+    opacity: 0.7;
+}
+.opt .lib-opt {
+    position: relative;
+    left:4rem;
+    background-color: #121212;
+    font-size:1.2rem;
+    top:0.5rem;
+    height:1rem;
+    padding-left:1.5rem;
+    opacity:0.7;
+}.lib-opt i{
+background-color: #121212;
+}
+.opt a:hover{
+    opacity: 1;
+}
+.opt .lib-opt:hover{
+    opacity:1;
+}
+.box {
+    background-color: #232323;
+    height:8rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0.63rem 0.5rem 0;
+    padding :0.5rem;
+    padding-left: 1.3rem;
+}
+.box-p1{
+    background-color: #232323;
+    font-size:1rem;
+    font-weight: 500;
+}
+.box-p2{
+    background-color: #232323;
+    font-size:0.85rem;
+    opacity:0.9;
+}
+.badge{
+    background-color: #fff;
+    border:none;
+    border-radius :100px;
+    padding:0.25rem 1rem;
+    font-weight:700;
+    margin-top: 0.5rem;
+    height:2rem;   
+    width: fit-content;
+}
+.badge:hover{
+    transform: scale(1.1);
+}
+.main_content{
+    background-color: #121212;
+    flex:1;
+    border-radius:1rem;
+    margin-top: 0;
+}
+.sticky{
+    margin-top: 0;
+    z-index: 2;
+    width:100%;
+    position: fixed;
+    background-color: #121212;
+    padding-bottom: 1rem;
+}
+.sticky img{
+    margin-top:0.6rem;
+    margin-left:0.3rem;
+    border-radius: 50%;
+    background-color: #000;
+}
+.sticky .badge{
+   position:relative;
+   left:40rem;
+    margin-right:1rem;
+}
+.sticky .badge i{
+    background-color:white;
+    padding-right: 0.3rem;
+}
+.sticky .user{
+    border-radius:50%;
+    position: relative;
+    left:40.1rem;
+    background-color: #fff;
+}
+.sticky .user i{
+    background-color: white;;
+}
+.sticky .badge:hover{
+    transform:scale(1.1);
+}
+.cards{
+    position:relative;
+    top:60px;
+    overflow: auto;
+
+}
+.card {
+    background-color: #232323;
+    width:170px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-left:1.5rem;
+    margin-bottom:1.5rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+.card img{
+    width:90%;
+    border-radius:1rem;
+    height:160px;
+    background-color: #232323;
+}
+.card-title{
+    padding-left: 0.5rem;
+    font-weight:600;
+    background-color: #232323;
+}
+.card-info{
+    padding-left: 0.5rem;
+    background-color: #232323;
+    font-size:0.75rem;
+    opacity:0.7;
+}
+.footer{
+height:400px;
+width:400px;
+}
+.music_player{
+    position:fixed;
+    display:flex;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height:72px;
+    z-index: 0;
+}
+.music_player .name{
+    background-color: black;
+    width:25%;
+    height:72px;
+}
+.music_player .play{
+    background-color: black;
+    width:40%;
+    height:72px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.music_player .play .play-control{
+padding-left:10rem;
+margin-top: .6rem; 
+}
+.music_player .play .play-control img{
+    margin-left:1.5rem;
+    height: 20px;
+    background-color: black;
+}
+.music_player .control{
+    background-color: black;
+    width:35%;
+    height:72px;
+}
+#play-button{
+    transform: scale(1.5);
+   
+}
+#play-button:hover{
+    transform: scale(1.6);
+}
+.music_player .play .progress-bar{
+    margin-top:0.15rem;
+    margin-left:5rem;   
+}
+.music_player .play .play-control img:hover{
+    opacity: 1;
+}
+#range
+{ 
+    width:22rem;
+}
+.music_player .name img{
+background-color: #000;
+height: 60px;
+width:70px;
+}
+.music_player .name{
+    margin-left:1rem;
+    color:white;
+    display:flex;
+}
+#heart{
+    position: relative;
+    top:2.5rem;
+    left:9rem;
+    transform:scale(1.5)
+}
+#small{
+    opacity:0.5;
+    margin-top:0.5px;
+}.music_player .control{
+    margin-left:7rem;
+}
+.music_player .control img{
+background-color: black;
+margin-left:1rem;
+transform:scale(1.7);
+margin-top:13px;
+}
+.music_player .control img:hover{
+    opacity:1;
+}
+.music_player .control i{
+    margin-left:1rem;
+    border:none;
+}
+.card:hover{
+    transform: scale(1.1);
+}
